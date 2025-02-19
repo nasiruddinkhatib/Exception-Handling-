@@ -27,3 +27,19 @@ finally:
     print("This always executes.")
 
 #***********
+# *************Same Example *********
+# a = 10
+# b = 5
+try:
+    print("resource open")
+    print(a / b)  # ZeroDivisionError: Cannot divide by zero
+    k = int(input("Enter a number"))  # ValueError: If input is non-numeric
+    print(k)
+except ZeroDivisionError as e:
+    print("Hey, can't divide number by zero:", e)  # Handling division by zero
+except ValueError as e:
+    print("Invalid input:", e)  # Handling non-numeric input
+except Exception as e:  # Corrected 'exception' to 'Exception'
+    print("Something went wrong:", e)  # Handling any other unexpected errors
+finally:
+    print("resource closed")  # Ensures resource cleanup
