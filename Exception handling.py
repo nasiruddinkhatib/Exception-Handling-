@@ -16,18 +16,17 @@
 # except:
 #   print("An exception occurred")
 #**************--------------***************-------------------------*******************-------------------------***********************
-##Example 2*********Division By Zero Error******************
+##Example 2**************Division By Zero Error******************
 try:
-    num = 10 / 0  # This will raise a ZeroDivisionError
+    num = 10 / 0                    #  num = 10 / 0 raises a ZeroDivisionError because you can’t divide by zero.
 except ZeroDivisionError:
-    print("Cannot divide by zero!")
+    print("Cannot divide by zero!")  # block catches this error and prints: Cannot divide by zero!
 else:
     print("Division was successful!")
-finally:
-    print("This always executes.")
-
-#***********
-# *************Same Example *********
+finally:                              # finally block always executes, so it prints: This always executes.
+    print("This always executes.
+          
+##*********************Same Example **********************
 # a = 10
 # b = 5
 try:
