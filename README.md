@@ -1,4 +1,4 @@
-# Exception-Handling-
+# Python Exception-Handling-
 Exception/error Handling 
 Exception handling in Python is done using the try, except, else, and finally blocks. Here's a breakdown of each:
 
