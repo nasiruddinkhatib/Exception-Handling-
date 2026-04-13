@@ -9,6 +9,20 @@
 # Exception handling lets you manage these errors gracefully instead of the program terminating unexpectedly.)
 
 #**************-----------*****************----------------*****************------------------****************---------------************
+#Example :
+try:
+    # Code that may cause error
+    x = 10 / 0
+
+except:
+    # Code that runs if error occurs
+    print("Error occurred")
+
+finally:
+    # This block always runs
+    print("Done")
+
+
 ##Example:
 #The try block will generate an error, because x is not defined:
 # try:
