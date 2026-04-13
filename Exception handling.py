@@ -21,7 +21,15 @@ except:
 finally:
     # This block always runs
     print("Done")
-
+🔹 Types of Blocks
+1. try
+Put risky code here
+2. except
+Handles the error
+3. else
+Runs if no error occurs
+4. finally
+Always executes (error ho ya na ho)
 
 ##Example:
 #The try block will generate an error, because x is not defined:
