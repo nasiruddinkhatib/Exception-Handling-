@@ -1,4 +1,7 @@
 # Python Exception-Handling-
+📌 What is Exception Handling?
+Ans : Exception handling is used to handle runtime errors so that your program does not crash and runs smoothly.
+
 Exception/error Handling 
 Exception handling in Python is done using the try, except, else, and finally blocks. Here's a breakdown of each:
 
